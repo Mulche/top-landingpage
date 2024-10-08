@@ -1,0 +1,153 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    /* background-color: #1f2937; */
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* Header Section */
+
+
+
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: #1f2937
+}
+
+
+
+/* Hero Section */
+
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    background-color: #1f2937
+}
+
+.signup {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 4px 18px;
+    margin: 10px 0px;
+    max-width: 100px;
+}
+
+.hero-large {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-small {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-left .signup {
+    border: none;
+}
+
+.hero-right {
+    flex: 0 1 auto;
+}
+
+
+
+
+/* Info Section */
+
+
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.pics {
+    display: flex;
+}
+
+.pics img {
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    text-align: center;
+}
+
+
+
+
+/* Quote Section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+
+/* Call To Action Section */
+
+.cta {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+/* Footer Section */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
