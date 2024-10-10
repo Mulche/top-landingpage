@@ -5,5 +5,7 @@ I was still very confused about Flexbox when I started this project. I ended up 
 Ultimately, I found it simplest to just force push all my changes, even though that seems to have gotten rid of all my previous commits. This was in an of itself a lesson for the project, I got a bit more understanding of how git works.
 
 Known Issue(s):
+
 -The subtext under the images uses text-align: center which may not be ideal, it does not fully match the reference image.
+
 -Certain elements do not flex as expected, most notably the "placeholder image" in the Hero section
